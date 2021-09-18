@@ -5,7 +5,12 @@ module.exports = {
     extend: {},
   },
   variants: {
+    debugScreens: {
+      position: ['top', 'right'],
+      },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-debug-screens'),
+  ]
 }
